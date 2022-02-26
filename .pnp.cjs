@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "npm:1.2.0"],\
             ["autoprefixer", "virtual:aa8365dfb1a724ab1592332c2784a85d49e29efc3c6d82d5137b23fb7716cf506b3e7cd0ef8078161304e0ff87eb2e2df42ce6cb8cd1ae0a33accbc3c846c740#npm:10.4.2"],\
             ["postcss", "npm:8.4.7"],\
+            ["prettier", "npm:2.5.1"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:aa8365dfb1a724ab1592332c2784a85d49e29efc3c6d82d5137b23fb7716cf506b3e7cd0ef8078161304e0ff87eb2e2df42ce6cb8cd1ae0a33accbc3c846c740#npm:17.0.2"],\
             ["tailwindcss", "virtual:aa8365dfb1a724ab1592332c2784a85d49e29efc3c6d82d5137b23fb7716cf506b3e7cd0ef8078161304e0ff87eb2e2df42ce6cb8cd1ae0a33accbc3c846c740#npm:3.0.23"],\
@@ -2372,6 +2373,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.5.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.5.1-58b195b509-21b9408476.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-inflight", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
@@ -2759,6 +2769,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "npm:1.2.0"],\
             ["autoprefixer", "virtual:aa8365dfb1a724ab1592332c2784a85d49e29efc3c6d82d5137b23fb7716cf506b3e7cd0ef8078161304e0ff87eb2e2df42ce6cb8cd1ae0a33accbc3c846c740#npm:10.4.2"],\
             ["postcss", "npm:8.4.7"],\
+            ["prettier", "npm:2.5.1"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:aa8365dfb1a724ab1592332c2784a85d49e29efc3c6d82d5137b23fb7716cf506b3e7cd0ef8078161304e0ff87eb2e2df42ce6cb8cd1ae0a33accbc3c846c740#npm:17.0.2"],\
             ["tailwindcss", "virtual:aa8365dfb1a724ab1592332c2784a85d49e29efc3c6d82d5137b23fb7716cf506b3e7cd0ef8078161304e0ff87eb2e2df42ce6cb8cd1ae0a33accbc3c846c740#npm:3.0.23"],\

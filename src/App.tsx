@@ -1,9 +1,19 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import './App.css';
+
+import { useState } from 'react';
+
+import logo from './logo.svg';
+
+const styles = /*tw*/ {
+  count: 'font-bold underline',
+};
+
+const styles2 = /*tw*/ {
+  count: 'font-bold underline',
+};
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -12,7 +22,7 @@ function App() {
         <p>Hello Vite + React!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
+            count is: <span className={styles.count}>{count}</span>
           </button>
         </p>
         <p>
@@ -39,7 +49,7 @@ function App() {
         </p>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
