@@ -10,7 +10,7 @@ Using the following `classRegex` tailwind vscode extension setting:
 }
 ```
 
-You can open [`App.tsx:7-13`](https://github.com/benatshippabo/tailwind-vscode-bug/blob/main/src/App.tsx#L7-L13) and see that we get tailwind intellisense for `styles` but not for `styles2`.
+You can open [`src/App.tsx:7-13`](https://github.com/benatshippabo/tailwind-vscode-bug/blob/main/src/App.tsx#L7-L13) and see that we get tailwind intellisense for `styles` but not for `styles2`.
 
 ## Context
 https://github.com/tailwindlabs/tailwindcss/issues/7553#issuecomment-735915659
